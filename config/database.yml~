@@ -12,7 +12,7 @@ development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: Sample_New_development
+  database: simple_app
   pool: 5
   username: simple_app
   password: doulatabad
@@ -25,18 +25,18 @@ test:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: Sample_New_test
+  database: simple_app
   pool: 5
-  username: root
-  password:
+  username: simple_app
+  password: doulatabad
   socket: /var/run/mysqld/mysqld.sock
 
 production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: Sample_New_production
+  database: simple_app
   pool: 5
-  username: root
-  password:
+  username: simple_app
+  password: doulatabad
   socket: /var/run/mysqld/mysqld.sock
